@@ -1,2 +1,2 @@
 # flight-reservation-system
-A flight reservation website that displays flight information and allows booking and PayPal payment services
+A flight reservation system based on Python’s OOP principles

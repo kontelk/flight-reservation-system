@@ -1,18 +1,61 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+# Caches
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.Python/
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+.eggs/
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+# Environments
+.env/
+.venv/
+venv/
+env/
+/site/
+
+# IDE specific files
+.idea/             # PyCharm
+*.iml              # PyCharm
+.vscode/           # VS Code (if you don't want to share settings)
+*.sublime-project  # Sublime Text
+*.sublime-workspace # Sublime Text
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Test / Debug files
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+
+# Pip cache
+.pip_cache/
+
+# User-specific configuration files (if not meant for version control)
+# For example, if you have a local settings file not meant for production
+# local_settings.py
+# settings_local.py
+
+# Sensitive files (e.g., API keys, passwords)
+# It's better to use environment variables for these, but if you have
+# files that contain sensitive info, list them here.
+# For example:
+# config.ini
+# credentials.json
